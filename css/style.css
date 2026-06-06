@@ -1,0 +1,222 @@
+body {
+    font-family: Avenir Next Arabic;
+    margin: 0;
+    background-color: #f7f4ed;
+    color: #222;
+}
+th {
+    background-color:#f6e7a8;
+}
+header {
+    padding: 20px;
+    border-bottom: 1px solid #999;
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+}
+
+header img {
+    width:120px;
+    height: auto;
+}
+
+nav a {
+    text-decoration: none;
+    color: #222;
+	margin: 0 15px;
+display: inline-block;
+}
+nav a:hover {
+  color: #ff6347;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+  text-decoration: underline;
+}
+footer {
+    padding: 15px;
+    text-align: center;
+    border-top: 1px solid#999;
+}
+section {
+    padding: 20px;
+}
+table {
+    width: 50%;
+    border-collapse: collapse;
+}
+table, th, td {
+    padding: 10px;
+    border: 1px solid #999;
+}
+th, td {
+    padding: 10px;
+}
+header img  {
+    width: 150px;
+}
+section img {
+    height: auto;
+    margin: 4px;
+    display: inline-block;
+}
+.salad-card {
+    margin-bottom: 20px;
+    text-align: center;
+    display: inline-block;
+    width: 250px;
+}
+.hamburger {
+    display: none;
+}
+.hamburger {
+    display: none;
+}
+
+.salad-card img {
+    width:  320px;
+    height: auto;
+}
+a.button {
+    display: inline-block;
+    background-color: #ff6b4a;
+    color: white;
+    padding: 10px 18px;
+    text-decoration: none;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+a.button:hover {
+    background-color: #d94f35;
+}
+@media (min-width: 601px) {
+       header {
+        padding: 12px;
+        gap: 18px;
+        flex-wrap: nowrap;
+    }
+
+    header img {
+        width: 70px;
+    }
+
+    header h1 {
+        font-size: 32px;
+    }
+
+    nav a {
+        margin: 0 10px;
+    } .salad-card {
+        display: inline-block;
+        width: 40%;
+        text-align: center;
+        vertical-align: top;
+    }
+}
+
+@media (max-width:600px) {
+    header {
+        padding: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        flex-wrap: wrap;
+    }
+
+    header img {
+        width: 35px;
+        height: auto;
+    }
+
+    header h1 {
+        font-size: 24px;
+        margin: 0;
+    }
+
+    .hamburger {
+        display: block;
+        font-size: 24px;
+        cursor: pointer;
+    }
+
+    nav {
+        display: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav a {
+        display: block;
+        margin: 8px 0;
+    }
+
+    .salad-card {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .salad-card img {
+        width: 200px;
+        height: auto;
+    }
+}
+
+.salad-card img:hover {
+    transform: scale(1.08);
+    
+	transition: 0.3s;
+	}
+.button {
+    display: inline-block;
+    background-color: #ff6b4a;
+    color: white;
+    padding: 10px 18px;
+    text-decoration: none;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+.button:hover {
+    background-color: #d94f35;
+}
+
+@media (max-width: 768px) {
+    nav {
+        display: none !important;
+    }
+
+    .hamburger {
+        display: block !important;
+    }
+
+    .salad-card {
+        display: block !important;
+        width: 100% !important;
+    }
+
+    .salad-card img {
+        width: 200px !important;
+        height: auto !important;
+    }
+}.contact-link {
+  color: #2b4d2f;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contact-link:hover {
+  color: #ff6347;
+  text-decoration: underline;
+}@media (max-width: 768px) {
+  .footer-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .footer-contact span {
+    display: block;
+    text-align: center;
+  }
+}

@@ -1,0 +1,62 @@
+<!doctype html>
+<html><!-- InstanceBegin template="/Templates/main-template.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="DeliBite is a fresh salad delivery website offering clean, healthy, and ready-to-eat salad options.">
+<meta name="keywords" content="DeliBite, fresh salad, salad delivery, healthy food, ready-to-eat salads, fruit salad, vegetable salad">
+<meta name="author" content="Yalda Ghasemi">
+<title>DeliBite</title>
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<header>
+	<img src="images/Logo.png" alt="DeliBite logo">
+  <h1>DeliBite</h1>
+	<div class="hamburger" onclick="toggleMenu()">☰</div>
+
+  <nav>
+    <a href="index.html">Home </a>
+	<a href="about.html">About</a>
+    <a href="menu.html">Menu</a>
+    <a href="contact.html">contact</a>
+    <a href="order.html">Order / Delivery</a>
+  </nav>
+</header>	
+<!-- InstanceBeginEditable name="mainContent" --><section>
+  <h2>Order / Delivery</h2>
+  <p>Customers can choose their salad and learn about delivery options for easy access to fresh and healthy food.</p>
+  <p>Delivery is designed to make DeliBite simple, quick, and convenient for busy people.</p><p>
+    <a href="contact.html" class="button">Order Now</a>
+</p>
+</section><!-- InstanceEndEditable -->
+<footer>
+  <p>DeliBite &copy; 2026</p>
+<div class="footer-contact">
+    <span>
+  <a href="mailto:info@delibite.com" class="contact-link">
+    <img src="images/email.png" alt="" class="contact-icon"> Email: info@delibite.com
+  </a>
+</span>
+
+<span>
+  <a href="https://www.instagram.com/delibite" target="_blank" class="contact-link">
+    <img src="images/instagram.png" alt="" class="contact-icon"> Instagram: @delibite
+  </a>
+</span>
+</div>
+	</footer>
+	<script>
+function toggleMenu() {
+    var nav = document.querySelector("nav");
+
+    if (nav.style.display === "block") {
+        nav.style.display = "none";
+    } else {
+        nav.style.display = "block";
+    }
+}
+</script>
+</body>
+<!-- InstanceEnd --></html>

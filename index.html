@@ -1,0 +1,132 @@
+<!doctype html>
+<html><!-- InstanceBegin template="/Templates/main-template.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="DeliBite is a fresh salad delivery website offering clean, healthy, and ready-to-eat salad options.">
+<meta name="keywords" content="DeliBite, fresh salad, salad delivery, healthy food, ready-to-eat salads, fruit salad, vegetable salad">
+<meta name="author" content="Yalda Ghasemi">
+<title>DeliBite</title>
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<header>
+	<img src="images/Logo.png" alt="DeliBite logo">
+  <h1>DeliBite</h1>
+	<div class="hamburger" onclick="toggleMenu()">☰</div>
+
+  <nav>
+    <a href="index.html">Home </a>
+	<a href="about.html">About</a>
+    <a href="menu.html">Menu</a>
+    <a href="contact.html">contact</a>
+    <a href="order.html">Order / Delivery</a>
+  </nav>
+</header>	
+<!-- InstanceBeginEditable name="mainContent" --><section>
+  <h2>Fresh, Clean, and Ready-to-Eat Salads</h2>
+  <p>Nutritious, flavorful salads made with fresh ingredients - perfect for busy, healthy lives.</p>
+	<p>
+    <a href="menu.html" class="button">View Menu</a>
+    
+</p>
+</section>
+
+<section>
+  <h2>About DeliBite</h2>
+  <p>At DeliBite, we believe healthy eating should be easy, delicious, and affordable.</p>
+  <p>We craft fresh, clean, and balanced salads using quality ingredients you can trust.</p>
+  <p> Made daily. Made with care. Made for you.</p>
+</section>
+
+<section>
+  <h2>Our Salad Options</h2>
+  <ul>
+    <li>Fruit Salad</li>
+    <li>Seasonal Salad</li>
+    <li>Vegetable Salad</li>
+    <li>Ready-to-Eat Salad Cups</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Featured Salads</h2>
+ <div class="salad-card">
+  <h3>Fruit Salad</h3>
+  <img src="images/fruit-salad1.png" alt="fruit salad">
+  <p>Fresh</p>
+</div>
+
+<div class="salad-card">
+  <h3>Vegetable Salad</h3>
+  <img src="images/Vegetable-salad.png" alt="Vegetable salad">
+  <p>Healthy</p>
+</div>
+</section>
+
+<section>
+  <h2>Sample Menu Table</h2>
+
+  <table>
+    <tr>
+      <th>Salad Type</th>
+      <th>Size</th>
+      <th>Price</th>
+    </tr>
+    <tr>
+      <td>Fruit Salad</td>
+      <td>Medium Cup</td>
+      <td>$10</td>
+    </tr>
+    <tr>
+      <td>Seasonal Salad</td>
+      <td>Small Cup</td>
+      <td>$7</td>
+    </tr>
+    <tr>
+      <td>Vegetable Salad</td>
+      <td>Regular Bowl</td>
+      <td>$8</td>
+    </tr>
+    <tr>
+      <td>Ready-to-Eat Salad</td>
+      <td>Regular Bowl</td>
+      <td>$12</td>
+    </tr>
+  </table>
+</section>
+
+<section>
+  <h2>Order / Delivery</h2>
+  <p>Customers can choose their salad and learn about delivery options for easy access to fresh and healthy food.</p>
+</section><!-- InstanceEndEditable -->
+<footer>
+  <p>DeliBite &copy; 2026</p>
+<div class="footer-contact">
+    <span>
+  <a href="mailto:info@delibite.com" class="contact-link">
+    <img src="images/email.png" alt="" class="contact-icon"> Email: info@delibite.com
+  </a>
+</span>
+
+<span>
+  <a href="https://www.instagram.com/delibite" target="_blank" class="contact-link">
+    <img src="images/instagram.png" alt="" class="contact-icon"> Instagram: @delibite
+  </a>
+</span>
+</div>
+	</footer>
+	<script>
+function toggleMenu() {
+    var nav = document.querySelector("nav");
+
+    if (nav.style.display === "block") {
+        nav.style.display = "none";
+    } else {
+        nav.style.display = "block";
+    }
+}
+</script>
+</body>
+<!-- InstanceEnd --></html>
